@@ -1,0 +1,3 @@
+Load Factor: 0.699978
+Find unsuccess operations: 1266629 microseconds, operation count 7000
+Find success operations: 103 microseconds, operation count 7000
