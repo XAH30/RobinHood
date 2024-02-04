@@ -25,3 +25,15 @@ One disadvantage of Robin Hood's algorithm is that it can lead to longer time to
 3. Efficiency and performance: Robin Hood algorithm can be an efficient and fast way to solve collisions in hash tables. It provides linear execution time for insertion, search and deletion operations of elements and minimises the number of collisions which can lead to improved performance and efficiency of the algorithm.
 
 Thus, Robin Hood's hashing algorithm solves the problems related to collision resolution, uniform distribution of elements and improving the performance of hash table.
+
+# Graph of dependence of the number of collisions on the table load
+![image](https://github.com/XAH30/RobinHood/assets/73390555/1307e897-b93f-4ab8-80f7-7bf531645f37)
+# Graph of dependence of insertion time on table size
+![image](https://github.com/XAH30/RobinHood/assets/73390555/728f238e-30a8-43b8-a160-e0971de10e85)
+# Graph of deletion time dependence on table size
+![image](https://github.com/XAH30/RobinHood/assets/73390555/5f91ba63-5ae1-43e1-85ad-d90199aac959)
+# Graph of dependence of search time on table size
+![image](https://github.com/XAH30/RobinHood/assets/73390555/009ff97c-925d-4e53-8104-ee0f78c3ec83)
+
+
+
