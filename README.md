@@ -3,6 +3,7 @@ Solving collisions in hash tables using the Robin Hood method. This algorithm is
 # Hashing with open addressing
 The open addressing method is one way to solve collisions in hash tables. Instead of creating chains (lists) for elements with the same hash values, the open addressing method proposes to place elements in the table itself, moving them to other positions if collisions occur.
 Closed hashing uses a re-hashing technique. If an attempt is made to place element x in a segment number h(x) that is already occupied by another element (collision), the re-hashing technique selects a sequence of other segment numbers h_1 (x), h_2 (x) ,... where element x can be placed. Each of these locations is sequentially checked until a free one is found. If there are no free segments, then, therefore, the table is full and element x cannot be added.
+
 ![image](https://github.com/XAH30/RobinHood/assets/73390555/d6f5cf36-f2f3-4c25-ade7-04dfdefca621)
 In order to speed up the search there are several algorithms, but we will focus on the Robin Hood algorithm.
 # Robin Hood Algorithm
